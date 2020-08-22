@@ -1,0 +1,17 @@
+{
+  "name": "korrelationsrechner_backend",
+  "version": "1.0.0",
+  "description": "backend for Korrelationsrechner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.8",
+    "googleapis": "^39.2.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27"
+  }
+}

@@ -39,7 +39,7 @@ async function getTrafficData()
 async function getDustData() 
 { 
     try {                 
-  let res = await fetch(`http://data.sensor.community/airrohr/v1/sensor/30030/`);  
+  let res = await fetch(`https://data.sensor.community/airrohr/v1/sensor/2700/`);  
   let data = await res.json()      
   updateNewRow(data)
     } catch (error) {
@@ -50,7 +50,7 @@ async function getDustData()
 async function getTempAndHumData() 
 { 
     try {          
-  let res = await fetch(`http://data.sensor.community/airrohr/v1/sensor/30031/`)
+  let res = await fetch(`https://data.sensor.community/airrohr/v1/sensor/2701/`)
   let data = await res.json()    
   updateNewRow(data)
     } catch (error) {
